@@ -79,8 +79,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-style: oblique;
+    font-size: medium;
+    text-align: left;
+    color: #B49D8B;
+    border-bottom-color: #B49D8B;
 }
 
 abbr[title],
@@ -370,6 +375,8 @@ h2, .h2 {
     font-size: 2rem;
     font-family: Oswald;
     text-align: center;
+    font: bold;
+    color: #B49D8B;
 }
 
 h3, .h3 {
@@ -608,17 +615,19 @@ pre code {
 }
 
 .row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    color: #B49D8B;
 }
 
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
 }
 
 .no-gutters > .col,
@@ -709,9 +718,10 @@ pre code {
 }
 
 .col-4 {
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    font-family: oswald;
 }
 
 .col-5 {
@@ -1358,6 +1368,7 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    color: #B49D8B;
   }
   .col-lg-7 {
     -ms-flex: 0 0 58.333333%;
@@ -1690,9 +1701,10 @@ pre code {
 }
 
 .table {
-  width: 100%;
-  margin-bottom: 1rem;
-  color: #212529;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #B49D8B;
+    border: thick groove #B49D8B;
 }
 
 .table th,
@@ -10101,7 +10113,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #212529 !important;
+    color: #B49D8B !important;
+    font-weight: normal;
+    font-family: oswald;
+    font-style: italic;
+    text-align: left;
 }
 
 .text-muted {
